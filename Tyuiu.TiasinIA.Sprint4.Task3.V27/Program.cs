@@ -38,7 +38,7 @@ namespace Tyuiu.TiasinIA.Sprint4.Task3.V27
             {
                 for (int j = 0; j < colums; j++)
                 {
-                    Console.Write($"{numsArray[i, j]}\t");
+                    Console.Write($"{numsArray[i, j]}\t\t\t\t");
                 }
             }
 
