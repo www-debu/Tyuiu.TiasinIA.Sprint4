@@ -8,7 +8,7 @@ namespace Tyuiu.TiasinIA.Sprint4.Task6.V16.Lib
             int count = 0;
             foreach (string dish in array)
             {
-                if (dish.Length == 8)
+                if (dish.Length == 7)
                 {
                     count++;
                 }
@@ -21,7 +21,7 @@ namespace Tyuiu.TiasinIA.Sprint4.Task6.V16.Lib
 
             foreach (string dish in array)
             {
-                if (dish.Length == 8 )
+                if (dish.Length == 7 )
                 {
                     filteredDishes[index] = dish;
                     index++;
